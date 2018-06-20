@@ -4,18 +4,34 @@
 This plugin brings push notifications, analytics, event tracking, crash reporting and more from Google Firebase to your Cordova project!
 Android and iOS supported.
 
-Donations are welcome and will go towards further development of this project. Use the addresses below to donate.
+> The Web SDK column indicates what modules/functionality from the Web SDK are usable within React Native.
 
-```
-BTC: 1JuXhHMCPHXT2fDfSRUTef9TpE2D67sc9f
-ETH: 0x74B5eDEce465fDd360b3b03C6984784140ac742e
-BCH: qzu5ffphkcgajn7kd7d90etq82maylz34uqg4uj5jf
-LTC: LKnFugRfczVH7qfBrmhzZDknhqxCzz6wJB
-XMR: 43ZMMEh5x4miZLMZF3W3faAL5Y44fPBXrFWBVXYePBjwXCvxLuo84Cof8ufXgb4sZLEpSDE3eKr5X7jNPfd4kppr8oMX9uM
-Paypal: https://paypal.me/arnesson
-```
+> '**?**' indicates partial support
 
-Thank you for your support!
+---
+| Firebase Features                                                                                                                 | v4.2.x | Web SDK |
+| --------------------------------------------------------------------------------------------------------------------------------- | :----: | :-----: |
+| **AdMob**                                                                                                                         |   ❌   |   ❌    |
+| **Analytics**                                                                                                                     |   ✅   |   ❌    |
+| **App Indexing**                                                                                                                  |   ❌   |   ❌    |
+| **Authentication**                                                                                                                |   ❌   |   ✅    |
+| _-- Phone Auth_                                                                                                                   |   ❌   |   ❌    |
+| **Core**                                                                                                                          |   ✅   |   ✅    |
+| _-- Multiple Apps_                                                                                                                |   ✅   |   ✅    |
+| **Cloud Firestore**                                                                                                               |   ❌   |  **?**  |
+| **Cloud Messaging (FCM)**                                                                                                         |   ✅   |   ❌    |
+| **Crashlytics**                                                                                                                   |   ✅   |   ❌    |
+| **Crash Reporting**                                                                                                               |   ✅   |   ❌    |
+| **Dynamic Links**                                                                                                                 |   ❌   |   ❌    |
+| **Functions Callable**                                                                                                            |   ❌  |    ✅    |
+| **Invites**                                                                                                                       |   ❌   |   ❌    |
+| **Instance ID**                                                                                                                   | **?**  |   ❌    |
+| **Performance Monitoring**                                                                                                        |   ❌   |   ❌    |
+| **Realtime Database**                                                                                                             |   ❌   |   ✅    |
+| _-- Offline Persistence_                                                                                                          |   ❌   |  **?**  |
+| **Remote Config**                                                                                                                 |   ✅   |   ❌    |
+| **Storage**                                                                                                                       |   ❌   |  **?**  |
+---
 
 ## Supported Cordova Versions
 - cordova: `>= 6`
