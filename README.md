@@ -1,7 +1,9 @@
-[![Build Status](https://travis-ci.org/arnesson/cordova-plugin-firebase.svg?branch=master)](https://travis-ci.org/arnesson/cordova-plugin-firebase)
 
 # cordova-plugin-firebase
-This plugin brings push notifications, analytics, event tracking, crash reporting and more from Google Firebase to your Cordova project!
+
+- This is a fork from 20 June 2018 for [cordova-plugin-firebase](https://github.com/arnesson/cordova-plugin-firebase)
+- We try to add additional Firebase modules to the original plugin: first candidates are [ML Kit](https://firebase.google.com/docs/ml-kit/) and [AdMob](https://firebase.google.com/docs/admob/)
+- This plugin brings push notifications, analytics, event tracking, crash reporting and more from Google Firebase to your Cordova project!
 Android and iOS supported.
 
 > The Web SDK column indicates what modules/functionality from the Web SDK are usable within Cordova/Ionic.
@@ -39,17 +41,10 @@ Android and iOS supported.
 - cordova-ios: `>= 4`
 
 ## Installation
-Install the plugin by adding it your project's config.xml:
+Install the plugin by running:
 ```
-<plugin name="cordova-plugin-firebase" spec="^1.0.0" />
+cordova plugin add https://github.com/WebNextNative/cordova-plugin-firebase --save
 ```
-or by running:
-```
-cordova plugin add cordova-plugin-firebase --save
-```
-
-### Guides
-Great installation and setup guide by Medium.com - [https://medium.com/@felipepucinelli/how-to-add-push...](https://medium.com/@felipepucinelli/how-to-add-push-notifications-in-your-cordova-application-using-firebase-69fac067e821)
 
 ### Setup
 Download your Firebase configuration files, GoogleService-Info.plist for ios and google-services.json for android, and place them in the root folder of your cordova project.  Check out this [firebase article](https://support.google.com/firebase/answer/7015592) for details on how to download the files.
