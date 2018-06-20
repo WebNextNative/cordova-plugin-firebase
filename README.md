@@ -4,33 +4,33 @@
 This plugin brings push notifications, analytics, event tracking, crash reporting and more from Google Firebase to your Cordova project!
 Android and iOS supported.
 
-> The Web SDK column indicates what modules/functionality from the Web SDK are usable within React Native.
+> The Web SDK column indicates what modules/functionality from the Web SDK are usable within Cordova/Ionic.
 
 > '**?**' indicates partial support
 
 ---
-| Firebase Features                                                                                                                 | v4.2.x | Web SDK |
-| --------------------------------------------------------------------------------------------------------------------------------- | :----: | :-----: |
-| **AdMob**                                                                                                                         |   ❌   |   ❌    |
-| **Analytics**                                                                                                                     |   ✅   |   ❌    |
-| **App Indexing**                                                                                                                  |   ❌   |   ❌    |
-| **Authentication**                                                                                                                |   ❌   |   ✅    |
-| _-- Phone Auth_                                                                                                                   |   ❌   |   ❌    |
-| **Core**                                                                                                                          |   ✅   |   ✅    |
-| _-- Multiple Apps_                                                                                                                |   ✅   |   ✅    |
-| **Cloud Firestore**                                                                                                               |   ❌   |  **?**  |
-| **Cloud Messaging (FCM)**                                                                                                         |   ✅   |   ❌    |
-| **Crashlytics**                                                                                                                   |   ✅   |   ❌    |
-| **Crash Reporting**                                                                                                               |   ✅   |   ❌    |
-| **Dynamic Links**                                                                                                                 |   ❌   |   ❌    |
-| **Functions Callable**                                                                                                            |   ❌  |    ✅    |
-| **Invites**                                                                                                                       |   ❌   |   ❌    |
-| **Instance ID**                                                                                                                   | **?**  |   ❌    |
-| **Performance Monitoring**                                                                                                        |   ❌   |   ❌    |
-| **Realtime Database**                                                                                                             |   ❌   |   ✅    |
-| _-- Offline Persistence_                                                                                                          |   ❌   |  **?**  |
-| **Remote Config**                                                                                                                 |   ✅   |   ❌    |
-| **Storage**                                                                                                                       |   ❌   |  **?**  |
+| Firebase Features                                                                                                                 | Native SKD v4.2.x | Web SDK |
+| --------------------------------------------------------------------------------------------------------------------------------- | :----:            | :-----: |
+| **AdMob**                                                                                                                         |   ❌              |   ❌    |
+| **Analytics**                                                                                                                     |   ✅              |   ❌    |
+| **App Indexing**                                                                                                                  |   ❌              |   ❌    |
+| **Authentication**                                                                                                                |   ❌              |   ✅    |
+| _-- Phone Auth_                                                                                                                   |   ❌              |   ❌    |
+| **Core**                                                                                                                          |   ✅              |   ✅    |
+| _-- Multiple Apps_                                                                                                                |   ✅              |   ✅    |
+| **Cloud Firestore**                                                                                                               |   ❌              |  **?**  |
+| **Cloud Messaging (FCM)**                                                                                                         |   ✅              |   ❌    |
+| **Crashlytics**                                                                                                                   |   ✅              |   ❌    |
+| **Crash Reporting**                                                                                                               |   ✅              |   ❌    |
+| **Dynamic Links**                                                                                                                 |   ❌              |   ❌    |
+| **Functions Callable**                                                                                                            |   ❌              |    ✅    |
+| **Invites**                                                                                                                       |   ❌              |   ❌    |
+| **Instance ID**                                                                                                                   | **?**             |   ❌    |
+| **Performance Monitoring**                                                                                                        |   ❌              |   ❌    |
+| **Realtime Database**                                                                                                             |   ❌              |   ✅    |
+| _-- Offline Persistence_                                                                                                          |   ❌              |  **?**  |
+| **Remote Config**                                                                                                                 |   ✅              |   ❌    |
+| **Storage**                                                                                                                       |   ❌              |  **?**  |
 ---
 
 ## Supported Cordova Versions
