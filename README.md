@@ -7,6 +7,7 @@ The original plugin brings push notifications, analytics, event tracking, crash 
 Android and iOS supported.
 - We try to add additional Firebase modules to the original plugin: first candidates are [ML Kit](https://firebase.google.com/docs/ml-kit/) and [AdMob](https://firebase.google.com/docs/admob/)
 - Better modularization (separate the plugin features based on Firebase modules)
+- Collect all existing Firebase Plugins in one place - [see this discution](https://medium.com/ionic-book/firebase-suport-in-ionic-cordova-5f77365c7d8f)
 
 > The Web SDK column indicates what modules/functionality from the Web SDK are usable within Cordova/Ionic.
 
