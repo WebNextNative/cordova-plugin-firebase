@@ -1,10 +1,12 @@
 
 # cordova-plugin-firebase
 
-- This is a fork from 20 June 2018 for [cordova-plugin-firebase](https://github.com/arnesson/cordova-plugin-firebase)
-- We try to add additional Firebase modules to the original plugin: first candidates are [ML Kit](https://firebase.google.com/docs/ml-kit/) and [AdMob](https://firebase.google.com/docs/admob/)
-- This plugin brings push notifications, analytics, event tracking, crash reporting and more from Google Firebase to your Cordova project!
+
+This is a fork from 20 June 2018 for [cordova-plugin-firebase](https://github.com/arnesson/cordova-plugin-firebase)
+The original plugin brings push notifications, analytics, event tracking, crash reporting and more from Google Firebase to your Cordova project!
 Android and iOS supported.
+- We try to add additional Firebase modules to the original plugin: first candidates are [ML Kit](https://firebase.google.com/docs/ml-kit/) and [AdMob](https://firebase.google.com/docs/admob/)
+- Better modularization (separate the plugin features based on Firebase modules)
 
 > The Web SDK column indicates what modules/functionality from the Web SDK are usable within Cordova/Ionic.
 

@@ -864,6 +864,7 @@ public class FirebasePlugin extends CordovaPlugin {
                 try {
                     mFirebaseAnalytics.setAnalyticsCollectionEnabled(enabled);
 
+
                     callbackContext.success();
                 } catch (Exception e) {
                     FirebaseCrash.log(e.getMessage());
